@@ -1,0 +1,112 @@
+* {
+font-family: Verdana, sans-serif;
+}
+
+body {
+  position: relative;
+  padding-bottom: 100px}
+
+
+header {background-color: #343C44;
+  color: white;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+button {
+  background-color: #e7e7e7;
+  color: black;
+  margin: 5,5,5,5;
+  border-radius: 12px;
+  height: auto;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #19647E;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(250, 28, 28, 1)
+}
+
+
+.boutons {display: flex;
+          flex-direction: row;
+          align-items: center;}
+
+.avatar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.avatar img {border-radius: 50%;
+  height: 75px;
+  width: auto;}
+
+.username {
+  color: white;
+  margin-right: 10px
+}
+
+.nomdusite {
+  color: white;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.textdroite {
+  display: flex;
+  align-content: center;
+}
+
+.bloctext {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+article {
+  width: 60%;
+}
+
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #343C44;
+  color: white;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+
+footer img {
+    border-radius: 50%;
+    height: 30px;
+    width: auto;
+    background-color: white;
+}
+
+footer img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(250, 28, 28, 1)
+}
